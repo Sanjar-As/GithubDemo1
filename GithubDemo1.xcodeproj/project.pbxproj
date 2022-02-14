@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B851AC0127BA14B0002B1225 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B851ABFF27BA14B0002B1225 /* HomeViewController.swift */; };
+		B851AC0227BA14B0002B1225 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B851AC0027BA14B0002B1225 /* HomeViewController.xib */; };
 		B86F0DF427BA130600D069BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86F0DF327BA130600D069BD /* AppDelegate.swift */; };
 		B86F0DF627BA130600D069BD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86F0DF527BA130600D069BD /* SceneDelegate.swift */; };
 		B86F0DF827BA130600D069BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B86F0DF727BA130600D069BD /* ViewController.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B851ABFF27BA14B0002B1225 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B851AC0027BA14B0002B1225 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		B86F0DF027BA130600D069BD /* GithubDemo1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GithubDemo1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B86F0DF327BA130600D069BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B86F0DF527BA130600D069BD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +43,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B851ABFD27BA146F002B1225 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				B851ABFF27BA14B0002B1225 /* HomeViewController.swift */,
+				B851AC0027BA14B0002B1225 /* HomeViewController.xib */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		B851ABFE27BA147B002B1225 /* app_utilities */ = {
+			isa = PBXGroup;
+			children = (
+				B86F0DFC27BA130600D069BD /* GithubDemo1.xcdatamodeld */,
+				B86F0DF727BA130600D069BD /* ViewController.swift */,
+				B86F0DF927BA130600D069BD /* Main.storyboard */,
+				B86F0DFF27BA130800D069BD /* Assets.xcassets */,
+				B86F0E0127BA130800D069BD /* LaunchScreen.storyboard */,
+			);
+			path = app_utilities;
+			sourceTree = "<group>";
+		};
 		B86F0DE727BA130600D069BD = {
 			isa = PBXGroup;
 			children = (
@@ -58,14 +83,11 @@
 		B86F0DF227BA130600D069BD /* GithubDemo1 */ = {
 			isa = PBXGroup;
 			children = (
+				B851ABFD27BA146F002B1225 /* controller */,
 				B86F0DF327BA130600D069BD /* AppDelegate.swift */,
 				B86F0DF527BA130600D069BD /* SceneDelegate.swift */,
-				B86F0DF727BA130600D069BD /* ViewController.swift */,
-				B86F0DF927BA130600D069BD /* Main.storyboard */,
-				B86F0DFF27BA130800D069BD /* Assets.xcassets */,
-				B86F0E0127BA130800D069BD /* LaunchScreen.storyboard */,
 				B86F0E0427BA130800D069BD /* Info.plist */,
-				B86F0DFC27BA130600D069BD /* GithubDemo1.xcdatamodeld */,
+				B851ABFE27BA147B002B1225 /* app_utilities */,
 			);
 			path = GithubDemo1;
 			sourceTree = "<group>";
@@ -131,6 +153,7 @@
 				B86F0E0327BA130800D069BD /* LaunchScreen.storyboard in Resources */,
 				B86F0E0027BA130800D069BD /* Assets.xcassets in Resources */,
 				B86F0DFB27BA130600D069BD /* Main.storyboard in Resources */,
+				B851AC0227BA14B0002B1225 /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,6 +164,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B851AC0127BA14B0002B1225 /* HomeViewController.swift in Sources */,
 				B86F0DF827BA130600D069BD /* ViewController.swift in Sources */,
 				B86F0DFE27BA130600D069BD /* GithubDemo1.xcdatamodeld in Sources */,
 				B86F0DF427BA130600D069BD /* AppDelegate.swift in Sources */,
